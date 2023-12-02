@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="FirstProj/App.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/MainPage.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Styles/buttons.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Views/MainPage.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Views/Styles/buttons.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/buttons.axaml" value="FirstProj/FirstProj.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

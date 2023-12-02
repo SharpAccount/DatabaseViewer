@@ -1,0 +1,44 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FirstProj.MainPage"
+        Width="280"
+        WindowStartupLocation="CenterScreen">
+    
+    <Window.Styles>
+        <StyleInclude Source="../Styles/buttons.axaml"/>
+    </Window.Styles>
+    
+    <Grid Background="#6000A0"
+          RowDefinitions="50, Auto, 100"
+          ColumnDefinitions="*, 2*, *"
+          ShowGridLines="True">
+            <StackPanel Grid.Row="1" Grid.Column="1"
+                        Margin="0 45 0 0" Spacing="10">
+                <TextBlock HorizontalAlignment="Center"
+                           FontWeight="UltraBold"
+                           Foreground="#C5C5C5"
+                           FontSize="45"
+                           FontFamily="Sans Serif, Comfortaa">
+                    My Test site
+                </TextBlock>
+                <TextBox Watermark="Write your login"
+                         TextAlignment="Center"
+                         FontWeight="Light">
+                    
+                </TextBox>
+                <TextBox Watermark="Write your password"
+                         TextAlignment="Center"
+                         FontWeight="Light"
+                         PasswordChar="*">
+                    
+                </TextBox>
+                <Button Content="Submit"
+                        Classes="Submit"
+                        HorizontalAlignment="Center">
+                </Button>
+            </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+        </Border>
+    </Design.PreviewWith>
+    <Style Selector="Button.Submit">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Height" Value="45"/>
+        <Setter Property="Width" Value="90"/>
+        <Setter Property="Foreground" Value="#300050"/>
+        <Setter Property="Background" Value="#C5C5C5"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Style Selector="^:pointerover /template/ ContentPresenter">
+            <Setter Property="Foreground" Value="#300050"/>
+            <Setter Property="Background" Value="#9E9E9E"/>
+        </Style>
+    </Style>
+</Styles>
