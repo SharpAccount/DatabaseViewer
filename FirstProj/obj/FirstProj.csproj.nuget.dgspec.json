@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bozhenka\\source\\repos\\FirstProj\\FirstProj\\FirstProj.csproj": {}
+    "F:\\Sharaga\\DatabaseViewer\\FirstProj\\FirstProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bozhenka\\source\\repos\\FirstProj\\FirstProj\\FirstProj.csproj": {
+    "F:\\Sharaga\\DatabaseViewer\\FirstProj\\FirstProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bozhenka\\source\\repos\\FirstProj\\FirstProj\\FirstProj.csproj",
+        "projectUniqueName": "F:\\Sharaga\\DatabaseViewer\\FirstProj\\FirstProj.csproj",
         "projectName": "FirstProj",
-        "projectPath": "C:\\Users\\Bozhenka\\source\\repos\\FirstProj\\FirstProj\\FirstProj.csproj",
-        "packagesPath": "C:\\Users\\Bozhenka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bozhenka\\source\\repos\\FirstProj\\FirstProj\\obj\\",
+        "projectPath": "F:\\Sharaga\\DatabaseViewer\\FirstProj\\FirstProj.csproj",
+        "packagesPath": "C:\\Users\\vladk\\.nuget\\packages\\",
+        "outputPath": "F:\\Sharaga\\DatabaseViewer\\FirstProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bozhenka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vladk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

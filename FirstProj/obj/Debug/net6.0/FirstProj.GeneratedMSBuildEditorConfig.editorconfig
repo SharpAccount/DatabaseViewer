@@ -13,17 +13,20 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstProj
-build_property.ProjectDir = C:\Users\Bozhenka\source\repos\FirstProj\FirstProj\
+build_property.ProjectDir = F:\Sharaga\DatabaseViewer\FirstProj\
 
-[C:/Users/Bozhenka/source/repos/FirstProj/FirstProj/Styles/buttons.axaml]
+[F:/Sharaga/DatabaseViewer/FirstProj/Styles/Addons.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = 
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Bozhenka/source/repos/FirstProj/FirstProj/App.axaml]
+[F:/Sharaga/DatabaseViewer/FirstProj/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Bozhenka/source/repos/FirstProj/FirstProj/Views/MainPage.axaml]
+[F:/Sharaga/DatabaseViewer/FirstProj/Styles/PurpleDarkTheme.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Bozhenka/source/repos/FirstProj/FirstProj/Views/MainWindow.axaml]
+[F:/Sharaga/DatabaseViewer/FirstProj/Views/LoginPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[F:/Sharaga/DatabaseViewer/FirstProj/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,0 +1,29 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style Selector="Grid.Background">
+        <Setter Property="Background" Value="#2B247C"/>
+    </Style>
+    
+    <Style Selector="TextBlock">
+        <Setter Property="Foreground" Value="#E6E3EC"/>
+        <Setter Property="FontFamily" Value="Sans Serif, Comfortaa"/>
+    </Style>
+    
+    <Style Selector="Button.Primary">
+        <Setter Property="Background" Value="#E6E3EC"/>
+        <Setter Property="Foreground" Value="#2B247C"/>
+        <Setter Property="FontFamily" Value="Sans Serif, Comfortaa"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        
+        <Style Selector="^:pointerover /template/ ContentPresenter">
+            <Setter Property="Foreground" Value="#3C31AC"/>
+            <Setter Property="Background" Value="#FBFAFF"/>
+        </Style>
+        
+    </Style>
+    
+    <Style Selector="TextBox">
+        <Setter Property="FontFamily" Value="Sans Serif, Comfortaa"/>
+    </Style>
+</Styles>

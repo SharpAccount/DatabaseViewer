@@ -17,7 +17,7 @@ namespace FirstProj
         {
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.MainWindow = new MainPage
+                desktop.MainWindow = new LoginPage()
                 {
                     DataContext = new MainWindowViewModel(),
                 };

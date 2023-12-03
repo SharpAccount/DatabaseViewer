@@ -3,25 +3,24 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="FirstProj.MainPage"
-        Width="280"
+        x:Class="FirstProj.LoginPage"
         WindowStartupLocation="CenterScreen">
     
     <Window.Styles>
-        <StyleInclude Source="../Styles/buttons.axaml"/>
+        <StyleInclude Source="../Styles/PurpleDarkTheme.axaml"/>
+        <StyleInclude Source="../Styles/Addons.axaml"/>
     </Window.Styles>
     
-    <Grid Background="#6000A0"
-          RowDefinitions="50, Auto, 100"
+    <Grid Classes="Background"
+          RowDefinitions="80, *, 100"
           ColumnDefinitions="*, 2*, *"
           ShowGridLines="True">
-            <StackPanel Grid.Row="1" Grid.Column="1"
-                        Margin="0 45 0 0" Spacing="10">
+            <StackPanel Grid.Row="1"
+                        Grid.Column="1"
+                        Spacing="10"
+                        VerticalAlignment="Center">
                 <TextBlock HorizontalAlignment="Center"
-                           FontWeight="UltraBold"
-                           Foreground="#C5C5C5"
-                           FontSize="45"
-                           FontFamily="Sans Serif, Comfortaa">
+                           Classes="H1">
                     My Test site
                 </TextBlock>
                 <TextBox Watermark="Write your login"
@@ -36,7 +35,7 @@
                     
                 </TextBox>
                 <Button Content="Submit"
-                        Classes="Submit"
+                        Classes="Primary"
                         HorizontalAlignment="Center">
                 </Button>
             </StackPanel>

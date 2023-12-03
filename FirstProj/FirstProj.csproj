@@ -26,7 +26,7 @@
 
 
   <ItemGroup>
-    <Compile Update="Views\MainPage.axaml.cs">
+    <Compile Update="Views\LoginPage.axaml.cs">
       <DependentUpon>MainPage.axaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -34,11 +34,11 @@
 
 
   <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Styles\buttons.axaml" />
+    <UpToDateCheckInput Remove="Views\Styles\Addons.axaml" />
   </ItemGroup>
 
 
   <ItemGroup>
-    <AdditionalFiles Include="Styles\buttons.axaml" />
+    <AdditionalFiles Include="Styles\Addons.axaml" />
   </ItemGroup>
 </Project>

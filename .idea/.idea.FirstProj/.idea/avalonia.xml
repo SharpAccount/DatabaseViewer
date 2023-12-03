@@ -5,8 +5,13 @@
       <map>
         <entry key="FirstProj/App.axaml" value="FirstProj/FirstProj.csproj" />
         <entry key="FirstProj/MainPage.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Styles/Addons.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Styles/ColorThemes.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Styles/PurpleDarkTheme.axaml" value="FirstProj/FirstProj.csproj" />
         <entry key="FirstProj/Styles/buttons.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Views/LoginPage.axaml" value="FirstProj/FirstProj.csproj" />
         <entry key="FirstProj/Views/MainPage.axaml" value="FirstProj/FirstProj.csproj" />
+        <entry key="FirstProj/Views/MainWindow.axaml" value="FirstProj/FirstProj.csproj" />
         <entry key="FirstProj/Views/Styles/buttons.axaml" value="FirstProj/FirstProj.csproj" />
         <entry key="FirstProj/buttons.axaml" value="FirstProj/FirstProj.csproj" />
       </map>
